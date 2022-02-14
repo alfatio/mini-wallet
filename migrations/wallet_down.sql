@@ -1,0 +1,8 @@
+
+
+DROP TABLE IF EXISTS wallet CASCADE;
+DROP TABLE IF EXISTS deposit CASCADE;
+DROP TABLE IF EXISTS withdrawal CASCADE;
+
+DROP TYPE IF EXISTS status_wallet;
+DROP TYPE IF EXISTS status_transaction;
