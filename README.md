@@ -5,6 +5,6 @@
   - Node.js version 14.17 or more installed
 
 ### how to install:
-  - run >> psql -U username -d databaseName -a -f migrations/wallet_up.sql
+  - run >> psql -U <username> -d <databaseName> -a -f migrations/wallet_up.sql
   - run >> npm install
   - run >> node app.js
